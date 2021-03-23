@@ -1,0 +1,13 @@
+CELERY:
+  BROKER_URL : "amqp://arl:arlpassword@arl-master:5672/arlv2host"
+
+
+MONGO:
+  URI : 'mongodb://admin:admin@arl-master:27017/'
+  DB : 'arl'
+
+
+ARL:
+  AUTH: true
+  #API 认证key, 可以访问api/doc查看文档
+  API_KEY: ""
